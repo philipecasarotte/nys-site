@@ -56,32 +56,6 @@ header div.intro a.animated:hover span, header div.intro a.animated:hover span s
 #bio h3 {border-bottom:1px solid black;}
 #bio p a {font-size:16px;}
 
-#recent-work {background:url(../images/desk-angle.jpg) center top;background-size:cover;color:white;position:relative;float:left;width:100%;height:auto;text-align:center;}
-#recent-work h2 {border-color:white;}
-#recent-work h2 a {font-family:Georgia, "Times New Roman", Times, serif;text-transform:lowercase;font-style:italic;background-color:#FAC200;color:black;}
-#recent-work h2 a:hover {color:white;}
-#recent-work h2, #recent-work h3, #recent-work a {color:white;}
-#recent-work p, #stats p {padding:0;border:none;clear:both;line-height:1.2em;margin-bottom:0;}
-#recent-work img {margin:4em 0;width:20%;height:auto;}
-#recent-work img:hover {opacity:0.6;}
-
-#work {background-color:#F3F2EE;}
-#work h2 {margin-bottom:2em;}
-#work ul {max-width:1400px;margin:0 auto;}
-#work li {display:inline;float:left;width:30%;background-color:white;border-top:solid 3px #FAC200;flex:1;margin-bottom:5em;}
-#work li:nth-child(2){margin-left:5%;margin-right:5%;}
-#work li h4 {padding:1em;padding-bottom:0.4em;}
-#work li h4 small {float:right;color:#666;}
-#work h4 {padding-bottom:0;}
-#work li a figure {position:relative;}
-#work li a figure img {width:100%;height:auto;-webkit-filter: grayscale(1); -webkit-filter: grayscale(100%);filter: gray; filter: grayscale(100%);filter: url(desaturate.svg#greyscale);border-bottom:solid 3px black;}
-#work li a figure figcaption {font-size:16px;opacity:0;margin-top:-5em;position:absolute;padding:1em;font-family:Georgia, "Times New Roman", Times, serif;font-style:italic;text-align:center;background-color:black;color:white;width:100%;}
-#work li a:hover, #work li a:focus {color:white;}
-#work li a:hover figure img, #work li a:focus figure img {-webkit-filter:none;-webkit-filter:none;filter:none;filter:none;filter:none;opacity:0;}
-#work li a figure img.replace {position:absolute;top:0;left:0em;opacity:0;-webkit-filter: blur(3px);filter:blur(3px);}
-#work li a:hover figure img.replace, #work li a:focus figure img.replace {opacity:1;-webkit-filter:none;filter:none;}
-#work li a:hover figure figcaption, #work li a:focus figure figcaption {margin-top:-0.1em;opacity:1;}
-
 #stats {background-color:#FAC200;}
 #stats li {width:25%;display:inline;float:left;text-align:center;font-size:1.2em;color:#BE8900;font-family:"Fjalla One", sans-serif;font-weight:normal;}
 #stats li strong {font-weight:normal;color:black;}
@@ -94,15 +68,15 @@ header div.intro a.animated:hover span, header div.intro a.animated:hover span s
 
 #personal {background-color:#272727;padding:5%;color:white;}
 #personal h2 {color:white;border-color:white;margin-bottom:5%;}
-#personal li {display:inline;float:left;width:20%;height:50%;background-position:center center;background-repeat:no-repeat;background-size:cover;overflow:hidden;}
-#personal li a {floatckground-color:#333;background-color:rgba(30, 30, 30, 0.7);width:100%;height:18vw;text-align:center;padding:5%;display:block;background-repeat:no-repeat;background-position:0 -1000px;background-size:100%;}
+#personal li {position:relative;display:inline;float:left;width:20%;height:50%;background-position:center center;background-repeat:no-repeat;background-size:cover;overflow:hidden;}
+#personal li a {background-color:#333;background-color:rgba(30, 30, 30, 0.7);width:100%;height:18vw;text-align:center;padding:5%;display:block;background-repeat:no-repeat;background-position:0 -1000px;background-size:100%;}
 #personal li:nth-child(even) a {background-color:#666;background-color:rgba(60, 60, 60, 0.7);}
 #personal li a strong {color:white;display:block;font-size:2em;font-family:Georgia, "Times New Roman", Times, serif;font-weight:normal;font-style:italic;margin-top:40%;}
 #personal li a hr {width:10%;margin:0.5em auto 1em auto;border:none;border-top:2px solid #FAC200;}
 #personal li a:hover hr, #personal li a:focus hr {width:50%;border-color:black;}
 #personal li a small {opacity:0;font-size:1.2em;color:white;}
 #personal li a small img {display:block;opacity:0;margin:0 auto;}
-#personal li a span.number {position:absolute;right:5%;top:5%;}
+#personal li a span.number {position:absolute;right:5%;top:5%;font-size:2em;font-family:Georgia, "Times New Roman", Times, serif;font-weight:normal;font-style:italic;}
 #personal li a:hover, #personal li a:focus {background-position:0 0;}
 #personal li a:hover strong, #personal li a:focus strong {margin-top:30%;color:black;}
 #personal li a:hover small, #personal li a:focus small {opacity:1;margin:0;color:black;}
@@ -149,19 +123,6 @@ footer nav a {display:inline;text-decoration:none;}
 	#bio p.intro {width:90%;}
 	#bio div {-webkit-column-count:1;-moz-column-count:1;column-count:1;width:90%;margin:0 auto;}
 	#bio h3 {font-size:20px;}
-	
-	#recent-work {background-attachment:scroll;}
-	#recent-work p {width:100%;}
-	#recent-work img {width:40%;}
-	
-	#work {padding-bottom:0;}
-	#work li {width:100%;margin-bottom:8em;}
-	#work li h4 {font-size:18px;}
-	#work li:nth-child(2){margin-left:0;margin-right:0;}
-	#work li a {color:white;}
-	#work li a figure img, #work li a:focus figure img {-webkit-filter:none;-webkit-filter:none;filter:none;filter:none;filter:none;opacity:0;}
-	#work li a figure img.replace, #work li a:focus figure img.replace {opacity:1;-webkit-filter:none;filter:none;}
-	#work li a figure figcaption, #work li a:focus figure figcaption {margin-top:-0.1em;opacity:1;}
 	
 	#stats h2 {margin-bottom:10%;}
 	#stats p {display:none;}
@@ -220,14 +181,6 @@ footer nav a {display:inline;text-decoration:none;}
 	#bio p.intro {font-size:18px;line-height:24px;width:90%;}
 	#bio div {-webkit-column-count:1;-moz-column-count:1;column-count:1;width:90%;margin:0 auto;}
 	#bio div p {font-size:16px;line-height:26px;}
-	
-	#recent-work {background-attachment:scroll;}
-	#recent-work p {display:none;}
-	#recent-work img {width:80%;}
-	
-	#work {padding-bottom:5%;}
-	#work li {width:100%;}
-	#work li:nth-child(2){margin-left:0;margin-right:0;}
 	
 	#stats h2 {margin-bottom:10%;}
 	#stats p {display:none;}

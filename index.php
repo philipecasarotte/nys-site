@@ -32,7 +32,7 @@
 		<!-- Of course you gotta check my semantics! -->
 		<header id="intro" class="flexbox">
 			<div class="intro col">
-				<h1>Hi, There!</h1>
+				<h1>Hi, Stern!</h1>
 				<p>My name is Philipe Casarotte and I'm a product manager with hands-on experience in software development, client management, and digital strategy.</p>
 				<button rel="#bio">25 Things About Me &raquo;</button>
 				<a href="#bio" class="animated infinite bounce" rel="#bio">
@@ -86,16 +86,86 @@
 		<section id="personal">
 			<h2>25 Things About Me</h2>
 			<ol>
-				<!-- I play the drums and also air-drum.
-				I play soccer (No surprises here, coming from Brazil)
-				I love swimming -->
-				I am a non-religious Christian
-				I like to cook
-				I will randomly lay down in different parts of the floor so I can look into things from a different point of view.
-				I do smart-phone detoxing from time to time, where I completely shut down my phone for a few days
-				As a child, as far as I can remember, my breakfast was dipping bread into a big old black coffee mug (with lots of sugar.) Please don’t judge my parents
-				I am 62,5% Italian, 12,5% German, and 25% Syrian, born in Brazil
-				I am a doodler (Only when a meeting could have been an e-mail)
+				<li class="drums">
+					<a href="https://en.wikipedia.org/wiki/Drum_kit">
+						<span class="number">1</span>
+						<strong>Drums</strong>
+						<hr/>
+						<small>I play the drums and also air-drum</small> 
+					</a>
+				</li>
+				<li class="soccer">
+					<a href="https://en.wikipedia.org/wiki/Football">
+						<span class="number">2</span>
+						<strong>Football</strong>
+						<hr/>
+						<small>I play soccer (No surprises here, coming from Brazil)</small>
+					</a>
+				</li>
+				<li class="chocolate">
+					<a href="https://en.wikipedia.org/wiki/Chocolate">
+						<span class="number">3</span>
+						<strong>Philps</strong>
+						<hr/>
+						<small>I love swimming</small>
+					</a>
+				</li>
+				<li class="philz-coffee">
+					<a href="http://www.philzcoffee.com">
+						<span class="number">4</span>
+						<strong>Faith</strong>
+						<hr/>
+						<small>I am a non-religious Christian</small>
+					</a>
+				</li>
+				<li class="maps">
+					<a href="https://www.google.com/maps/place/1431+7th+St,+Santa+Monica,+CA+90401/@34.0182075,-118.4912457,2487m/data=!3m1!1e3!4m2!3m1!1s0x80c2a4cdcf3ba38b:0x449304f6160de955">
+						<span class="number">5</span>
+						<strong>Chef</strong>
+						<hr/>
+						<small>I like to cook</small>
+					</a>
+				</li>
+				<li class="evernote">
+					<a href="http://www.evernote.com">
+						<span class="number">6</span>
+						<strong>I will randomly lay down in different parts of the floor so I can look into things from a different point of view.</strong>
+						<hr/>
+						<small></small>
+					</a>
+				</li>
+				<li class="basecamp">
+					<a href="http://www.basecamp.com">
+						<span class="number">7</span>
+						<strong>I do smart-phone detoxing from time to time, where I completely shut down my phone for a few days</strong>
+						<hr/>
+						<small></small>
+					</a>
+				</li>
+				<li class="terminal">
+					<a href="http://en.wikipedia.org/wiki/Command-line_interface">
+						<span class="number">8</span>
+						<strong>As a child, as far as I can remember, my breakfast was dipping bread into a big old black coffee mug (with lots of sugar.) Please don’t judge my parents</strong>
+						<hr/>
+						<small></small>
+					</a>
+				</li>
+				<li class="textmate">
+					<a href="https://macromates.com">
+						<span class="number">9</span>
+						<strong>Origin</strong>
+						<hr/>
+						<small>I am 62,5% Italian, 12,5% German, and 25% Syrian, born in Brazil</small>
+					</a>
+				</li>
+				<li class="axure">
+					<a href="http://www.axure.com">
+						<span class="number">10</span>
+						<strong>Doodler</strong>
+						<hr/>
+						<small>I am a doodler (Only when a meeting could have been an e-mail)</small>
+					</a>
+				</li>
 				My ideal relaxing weekend would be poolside barbecuing with friends and family
 				I like to laugh and make people laugh
 				I always inspect website’s code as I like to find out what language and/or framework they have used
@@ -111,78 +181,6 @@
 				I was 23 years old when I first had sushi
 				I appreciate chocolate very much
 				I believe honor and respect are the bases for my business and personal relationships
-				<li class="drums">
-					<a href="https://en.wikipedia.org/wiki/Drum_kit">
-						<span class="number">1</span>
-						<strong>Drums</strong>
-						<hr/>
-						<small>I play the drums and also air-drum.</small> 
-					</a>
-				</li>
-				<li class="soccer">
-					<a href="https://en.wikipedia.org/wiki/Football">
-						<span class="number">2</span>
-						<strong>Football</strong>
-						<hr/>
-						<small>I play soccer (No surprises here, coming from Brazil)</small>
-					</a>
-				</li>
-				<li class="chocolate">
-					<a href="https://en.wikipedia.org/wiki/Chocolate">
-						<strong>Philps</strong>
-						<hr/>
-						<small>I love swimming</small>
-					</a>
-				</li>
-				<li class="philz-coffee">
-					<a href="http://www.philzcoffee.com">
-						<strong>Faith</strong>
-						<hr/>
-						<small>I am a non-religious Christian</small>
-					</a>
-				</li>
-				<li class="maps">
-					<a href="https://www.google.com/maps/place/1431+7th+St,+Santa+Monica,+CA+90401/@34.0182075,-118.4912457,2487m/data=!3m1!1e3!4m2!3m1!1s0x80c2a4cdcf3ba38b:0x449304f6160de955">
-						<strong>Maps</strong>
-						<hr/>
-						<small>They fascinate me.</small>
-					</a>
-				</li>
-				<li class="evernote">
-					<a href="http://www.evernote.com">
-						<strong>Evernote</strong>
-						<hr/>
-						<small>My every note.</small>
-					</a>
-				</li>
-				<li class="basecamp">
-					<a href="http://www.basecamp.com">
-						<strong>Basecamp 3</strong>
-						<hr/>
-						<small>For a productive day.</small>
-					</a>
-				</li>
-				<li class="terminal">
-					<a href="http://en.wikipedia.org/wiki/Command-line_interface">
-						<strong>CI</strong>
-						<hr/>
-						<small>Command Line #ftw</small>
-					</a>
-				</li>
-				<li class="textmate">
-					<a href="https://macromates.com">
-						<strong>Textmate</strong>
-						<hr/>
-						<small>Best of friends TE.</small>
-					</a>
-				</li>
-				<li class="axure">
-					<a href="http://www.axure.com">
-						<strong>Axure</strong>
-						<hr/>
-						<small>For prototyping.</small>
-					</a>
-				</li>
 			</ol>
 		</section>
 		<footer>
