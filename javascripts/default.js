@@ -22,12 +22,10 @@ $(document).ready(function(){
 	 });
 	 
 	 //Cancel click on Personal Prefenreces
-	 if (isTouch()){
-		 $("#personal a").on("click", function(e){
-			 e.preventDefault();
-			 return false;
-		 });
-	 };
+	 $("#personal a").on("click", function(e){
+		 e.preventDefault();
+		 return false;
+	 });
 	 
 	 // Tracking GA Goals
 	 $("footer > a:last").on("click", function(e){
@@ -62,23 +60,6 @@ $(window).load(function(){
 	$(".loader-canvas").animate({top: "-100%", opacity:0}, 500, function(){
 		$(".loader-canvas, .loader").remove();
 	});
-});
-
-//Scroll Navigation
-$(window).scroll(function(){
-	var winTop = $(this).scrollTop()+300;
-    var $sections = $('section, header');
-    var top = $.grep($sections, function(item){
-        if($(item).position().top <= winTop){
-			$(".selected").removeClass("selected");
-			$("nav a[rel='#"+$(item).attr("id")+"']").addClass("selected");
-			if($(item).attr("id") == "bio" || $(item).attr("id") == "work"){
-				$("nav a").css("border-color", "#CCC");
-			}else{
-				$("nav a").css("border-color", "white");
-			};
-        };
-    });
 });
 
 //Check for Touch Devices
