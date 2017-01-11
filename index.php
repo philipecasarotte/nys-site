@@ -136,7 +136,7 @@
 						<span class="number">11</span>
 						<strong>Weekend</strong>
 						<hr/>
-						<small>My ideal relaxing weekend would be poolside barbecuing with friends and family</small>
+						<small>My ideal relaxing weekend would be poolside barbecuing with loved ones</small>
 					</a>
 				</li>
 				<li>
