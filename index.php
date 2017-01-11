@@ -32,15 +32,11 @@
 		<!-- Of course you gotta check my semantics! -->
 		<header id="intro" class="flexbox">
 			<div class="intro col">
-				<h1>
-					Philipe Casarotte
-					<small>Production &amp; Product Manager for <a href="http://www.dburnsdesign.com/about-us/#section-what">DBurns</a></small>
-				</h1>
-				<p>I'm a product manager with hands-on experience in software development, client management, and digital strategy.</p>
-				<button rel="#bio">FULL BIO &raquo;</button>
+				<h1>Hi, There!</h1>
+				<p>My name is Philipe Casarotte and I'm a product manager with hands-on experience in software development, client management, and digital strategy.</p>
+				<button rel="#bio">25 Things About Me &raquo;</button>
 				<a href="#bio" class="animated infinite bounce" rel="#bio">
 					<i class="fa fa-angle-down"></i>
-					<span><strong>2</strong>minutes</span>
 				</a>
 			</div>
 			<div class="col">
@@ -88,8 +84,8 @@
 			</ul>
 		</section>
 		<section id="personal">
-			<h2>Personal Favorites</h2>
-			<ul>
+			<h2>25 Things About Me</h2>
+			<ol>
 				<li class="drums">
 					<a href="https://en.wikipedia.org/wiki/Drum_kit">
 						<strong>Drums</strong>
@@ -160,7 +156,7 @@
 						<small>For prototyping.</small>
 					</a>
 				</li>
-			</ul>
+			</ol>
 		</section>
 		<footer>
 			<nav>
@@ -183,8 +179,7 @@
 		</nav>
 		
 		<!-- Coder & Drummer: I may miss a comma, never the beat. -->
-		
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script type="text/javascript" src="/min/f=javascripts/default.js"></script>
 	</body>
