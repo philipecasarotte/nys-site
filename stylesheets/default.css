@@ -68,6 +68,9 @@ header div.intro a.animated:hover i {color:#FEE800;}
 #personal li a:hover small, #personal li a:focus small {opacity:1;margin:0;}
 #personal li a:hover small img {opacity:1;}
 
+#personal li.expand-mobile a strong {margin-top:15%;}
+#personal li.expand-mobile a:hover strong, #personal li.expand-mobile a:focus strong {margin-top:0% !important;}
+
 #personal li.half a {text-align:left;}
 #personal li.half a strong {margin-top:2%;color:black;}
 #personal li.half a:hover strong {margin-top:0%;}
@@ -79,7 +82,7 @@ header div.intro a.animated:hover i {color:#FEE800;}
 
 #personal li.full a {text-align:left;background-color:#57068C;}
 #personal li.full a strong {margin-top:0%;quotes:"“" "”";}
-#personal li.full a strong:after {font-size:3em;content:open-quote;position:absolute;top:2%;;left:2%;}
+#personal li.full a strong:before {font-size:3em;content:open-quote;position:absolute;top:2%;;left:2%;}
 #personal li.full a hr {width:60%;margin:0.5em 0 1em 0;border:none;border-top:2px solid white;}
 #personal li.full a:hover hr, #personal li.full a:focus hr {width:100%;}
 
@@ -118,7 +121,12 @@ footer a:hover {color:#FEE800;}
 	#personal li {width:50%;}
 	#personal li a {height:38vw;}
 	
-	#personal li.half, #personal li.sixty, #personal li.full, #personal li.full.quarter, #personal li.third {width:100%;}
+	#personal li.expand-mobile, #personal li.half, #personal li.sixty, #personal li.full, #personal li.full.quarter, #personal li.third {width:100%;}
+
+	#personal li.sixty a strong:before,	
+	#personal li.full a strong:before {display:none;}
+	#personal li.sixty a,
+	#personal li.full a {height:auto;}
 }
 
 /* Smaller Screens ----------- */
@@ -160,13 +168,15 @@ footer a:hover {color:#FEE800;}
 	#personal h2 {margin:6% auto 10% auto;}
 	#personal li {width:50%;}
 	#personal li a strong {font-size:1.4em;}
-	#personal li a:hover strong, #personal li a:focus strong {margin-top:25%;}
-	#personal li.half, #personal li.sixty, #personal li.full, #personal li.full.quarter, #personal li.third {width:100%;}
+	#personal li a:hover strong, #personal li a:focus strong {margin-top:15%;}
+	#personal li.expand-mobile, #personal li.half, #personal li.sixty, #personal li.full, #personal li.full.quarter, #personal li.third {width:100%;}
 	#personal li.sixty a:hover strong, #personal li.sixty a:focus strong,
 	#personal li.full a:hover strong, #personal li.full a:focus strong {margin-top:2%;}
 	
+	#personal li.expand-mobile a:hover strong, #personal li.expand-mobile a:focus strong {margin-top:0% !important;}
+	
 	footer {padding:5% 10%;}
-	footer a.phone {width:100%;font-size:28px;border:solid 3px black;margin:0.5em 0;padding: 2% 10%;font-family: "Fjalla One", sans-serif;font-weight: normal;}
+	footer a.phone {width:100%;font-size:28px;border:solid 3px white;margin:0.5em 0;padding: 2% 10%;font-family: "Fjalla One", sans-serif;font-weight: normal;}
 	footer a {font-size:18px;}
 }
 
@@ -180,9 +190,14 @@ footer a:hover {color:#FEE800;}
 }
 
 @media only screen and (orientation:portrait){
+	header div.intro button {padding: 2% 5%;}
 	header div.intro h1 {text-align:center;}
 	header div.intro h1 img {margin:0 auto;text-align:center;}
+	.img-desktop, header div img.profile-id {display:none;}
+	header div img.mobile-only {display:block;position:inherit;width:80%;height:auto;margin:0 auto;}
 }
+
+.mobile-only {display:none;}
 
 /*Animations*/
 a.bounce {

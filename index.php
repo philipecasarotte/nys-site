@@ -38,12 +38,13 @@
 					Hi, Stern!
 				</h1>
 				<p>I'm a product manager with hands-on experience in software development, client management, and digital strategy.</p>
+				<img src="images/philipe-casarotte.png" width="1480" height="1712" alt="Philipe Casarotte" class="mobile-only"/>
 				<button rel="#personal">25 Things About Me &raquo;</button>
 				<a href="#personal" class="animated infinite bounce" rel="#personal">
 					<i class="fa fa-angle-down"></i>
 				</a>
 			</div>
-			<div class="col">
+			<div class="col img-desktop">
 				<img src="images/philipe-casarotte.png" width="1480" height="1712" alt="Philipe Casarotte" class="profile-id"/>
 			</div>
 		</header>
@@ -82,7 +83,7 @@
 						<small>I am a non-religious Christian</small>
 					</a>
 				</li>
-				<li>
+				<li class="expand-mobile">
 					<a href="#">
 						<span class="number">5</span>
 						<strong>Chef</strong>
@@ -114,7 +115,7 @@
 						<small>I am a doodler (Only when a meeting could have been an e-mail)</small>
 					</a>
 				</li>
-				<li>
+				<li class="expand-mobile">
 					<a href="#">
 						<span class="number">9</span>
 						<strong>Detox</strong>
@@ -226,7 +227,7 @@
 						<small>I was 23 years old when I first had sushi</small>
 					</a>
 				</li>
-				<li>
+				<li class="expand-mobile">
 					<a href="#">
 						<span class="number">23</span>
 						<strong>Sweet</strong>
