@@ -37,7 +37,7 @@
 					<img src="images/logos/stern-logo.png" width="1200" height="341" alt="Stern Logo"/>
 					Hi, Stern!
 				</h1>
-				<p>I'm a product manager with hands-on experience in software development, client management, and digital strategy.</p>
+				<p>I am Philipe. I'm a product manager with hands-on experience in software development, client management, and digital strategy.</p>
 				<img src="images/philipe-casarotte.png" width="1480" height="1712" alt="Philipe Casarotte" class="mobile-only"/>
 				<button rel="#personal">25 Things About Me &raquo;</button>
 				<a href="#personal" class="animated infinite bounce" rel="#personal">
