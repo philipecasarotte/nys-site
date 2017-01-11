@@ -86,32 +86,59 @@
 		<section id="personal">
 			<h2>25 Things About Me</h2>
 			<ol>
+				<!-- I play the drums and also air-drum.
+				I play soccer (No surprises here, coming from Brazil)
+				I love swimming -->
+				I am a non-religious Christian
+				I like to cook
+				I will randomly lay down in different parts of the floor so I can look into things from a different point of view.
+				I do smart-phone detoxing from time to time, where I completely shut down my phone for a few days
+				As a child, as far as I can remember, my breakfast was dipping bread into a big old black coffee mug (with lots of sugar.) Please don’t judge my parents
+				I am 62,5% Italian, 12,5% German, and 25% Syrian, born in Brazil
+				I am a doodler (Only when a meeting could have been an e-mail)
+				My ideal relaxing weekend would be poolside barbecuing with friends and family
+				I like to laugh and make people laugh
+				I always inspect website’s code as I like to find out what language and/or framework they have used
+				My wife and I know each other since we were 15 years old
+				My favorite TV actor is Phil from Modern Family
+				In my first year at university, I had two jobs and study at night in order to pay my tuition
+				One of my favorite books is Re-Work by 37Signals
+				I proudly own the entire collection of Where is Waldo?
+				If I had to pick one word to define me, I would pick honesty
+				I love to teach
+				I have four siblings, being three brothers and one sister
+				I prefer traditional ethnic food over fancy restaurants
+				I was 23 years old when I first had sushi
+				I appreciate chocolate very much
+				I believe honor and respect are the bases for my business and personal relationships
 				<li class="drums">
 					<a href="https://en.wikipedia.org/wiki/Drum_kit">
+						<span class="number">1</span>
 						<strong>Drums</strong>
 						<hr/>
-						<small>Air + actual drummer.</small> 
+						<small>I play the drums and also air-drum.</small> 
 					</a>
 				</li>
 				<li class="soccer">
 					<a href="https://en.wikipedia.org/wiki/Football">
+						<span class="number">2</span>
 						<strong>Football</strong>
 						<hr/>
-						<small>I love and play soccer.</small>
+						<small>I play soccer (No surprises here, coming from Brazil)</small>
 					</a>
 				</li>
 				<li class="chocolate">
 					<a href="https://en.wikipedia.org/wiki/Chocolate">
-						<strong>Chocolate</strong>
+						<strong>Philps</strong>
 						<hr/>
-						<small>Enough said.</small>
+						<small>I love swimming</small>
 					</a>
 				</li>
 				<li class="philz-coffee">
 					<a href="http://www.philzcoffee.com">
-						<strong>Philz Coffee</strong>
+						<strong>Faith</strong>
 						<hr/>
-						<small>Favorite coffee shop.</small>
+						<small>I am a non-religious Christian</small>
 					</a>
 				</li>
 				<li class="maps">
