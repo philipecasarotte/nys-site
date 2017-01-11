@@ -57,58 +57,6 @@
 				<p>I've taught web development for two universities, <a href="http://www.sp.senac.br/"  hreflang="pt-BR">Serviço Nacional de Aprendizagem Comercial</a> and <a href="http://pt.wikipedia.org/wiki/Faculdade_Santa_Marcelina" alt="FASM-SP (pt-BR)" title="FASM-SP (pt-BR)" hreflang="pt-BR">Faculdade Santa Marcelina</a>, and I'm honored that my work has won The Communicator, Davey, and W3 awards. I hold a B.S. in Digital Media from <a href="http://en.wikipedia.org/wiki/Pontif%C3%ADcia_Universidade_Cat%C3%B3lica_de_S%C3%A3o_Paulo">Pontifícia Universidade Católica de São Paulo</a>.</p>
 			</div>
 		</section>
-		<section id="recent-work">
-			<div>	
-				<h2>
-					I'm Currently<br/>
-					<a href="https://www.insedia.com">#workingoninsedia</a>
-				</h2>
-				<a href="https://www.insedia.com"><img src="images/logos/insedia-logo.png" width="94" height="78" alt="Alter Agents"/></a>
-				<p>Branding, UX, digital strategy and advertising. The online community that helps you settle. </p>
-			</div>
-		</section>
-		<section id="work">
-			<h2>Selected <strong>projects</strong></h2>
-			<ul>
-				<li>
-					<a href="https://twitter.com/hashtag/workingonalteragents?vertical=default&f=tweets">
-						<h4>Alter Agents</h4>
-						<figure>
-							<img src="images/featured-projects/alter-agents.jpg" alt="Alter Agents" width="16" height="9"/>
-							<img src="images/featured-projects/alter-agents-logo.jpg" alt="Alter Agents - Logo" width="16" height="9" class="replace"/>
-							<figcaption>
-								Branding and digital presence for Alter Agents - A market research company.
-							</figcaption>
-						</figure>
-					</a>
-				</li>
-				<li>
-					<a href="https://twitter.com/hashtag/workingonbeckmen?vertical=default&f=tweets">
-						<h4>Beckmen Vineyards <small>#5awards</small></h4>
-						<figure>
-							<img src="images/featured-projects/beckmen-vineyards.jpg" alt="Beckmen Vineyards" width="16" height="9"/>
-							<img src="images/featured-projects/beckmen-vineyards-logo.jpg" alt="Beckmen Vineyards - Logo" width="16" height="9" class="replace"/>
-							<figcaption>
-								A complete rebranding of Beckmen Vineyards' website and wine club.
-							</figcaption>
-						</figure>
-						
-					</a>
-				</li>
-				<li>
-					<a href="http://www.zenartsla.com">
-						<h4>ZenArts LA <small>#6awards</small></h4>
-						<figure>
-							<img src="images/featured-projects/zen-arts-la.jpg" alt="Zen Arts LA" width="16" height="9"/>
-							<img src="images/featured-projects/zen-arts-la-logo.jpg" alt="Zen Arts LA - Logo" width="16" height="9" class="replace"/>
-							<figcaption>
-								Extravagant corporate event entertainment and production company.
-							</figcaption>
-						</figure>
-					</a>
-				</li>
-			</ul>
-		</section>
 		<section id="stats">
 			<h2>Experience by the Number</h2>
 			<p>I've been involved in more than 450 projects in various roles. Here's a few stats on my roles in these projects throughout the years.</p>
