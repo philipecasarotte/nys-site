@@ -68,9 +68,6 @@ header div.intro a.animated:hover i {color:#FEE800;}
 #personal li a:hover small, #personal li a:focus small {opacity:1;margin:0;}
 #personal li a:hover small img {opacity:1;}
 
-#personal li.expand-mobile a strong {margin-top:15%;}
-#personal li.expand-mobile a:hover strong, #personal li.expand-mobile a:focus strong {margin-top:0% !important;}
-
 #personal li.half a {text-align:left;}
 #personal li.half a strong {margin-top:2%;color:black;}
 #personal li.half a:hover strong {margin-top:0%;}
@@ -127,6 +124,9 @@ footer a:hover {color:#FEE800;}
 	#personal li.full a strong:before {display:none;}
 	#personal li.sixty a,
 	#personal li.full a {height:auto;}
+	
+	#personal li.expand-mobile a strong {margin-top:15%;}
+	#personal li.expand-mobile a:hover strong, #personal li.expand-mobile a:focus strong {margin-top:10%;}
 }
 
 /* Smaller Screens ----------- */
