@@ -194,7 +194,7 @@ footer a:hover {color:#FEE800;}
 	header div.intro h1 {text-align:center;}
 	header div.intro h1 img {margin:0 auto;text-align:center;}
 	.img-desktop, header div img.profile-id {display:none;}
-	header div img.mobile-only {display:block;position:inherit;width:80%;height:auto;margin:0 auto;}
+	header div img.mobile-only {display:block;position:inherit;width:70%;height:auto;margin:0 auto;}
 }
 
 .mobile-only {display:none;}
